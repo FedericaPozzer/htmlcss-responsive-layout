@@ -64,3 +64,10 @@
 	background-color: aqua;
 	border: 1px solid black;
 }
+
+.btn {
+	line-height: normal;
+	border: none;
+	border-radius: 2em;
+	padding: .5em 1em;
+}

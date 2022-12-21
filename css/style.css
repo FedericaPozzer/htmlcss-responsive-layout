@@ -4,7 +4,7 @@
 
 header {
     background-color: #0084fd;
-    height: 8vh;
+    height: 80px;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -17,6 +17,7 @@ header > nav {
 
 header a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 header ul {
@@ -25,18 +26,28 @@ header ul {
 
 header li {
     margin: 0 1rem;
-    line-height: 8vh;
+    line-height: 80px;
     cursor: pointer;
-}
-
-header button {
-    line-height: 3vh;
 }
 
 /* HEADER MEDIA QUERY */
 
-@media screen and (max-width:480px) {
-    
+.show-tm {
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    header .off-tm {
+        display: none;
+    }
+    header .logo {
+        padding: 1rem;
+    }
+
+    header .show-tm {
+        display: block;
+        color: #ffffff;
+    }
 }
 
 
