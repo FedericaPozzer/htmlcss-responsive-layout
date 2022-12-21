@@ -16,6 +16,10 @@
 	display: flex;
 }
 
+.f-end {
+	align-items: flex-end;
+}
+
 /* Utils spacing */
 
 .center {
@@ -38,10 +42,36 @@
 	padding: 2rem;
 }
 
-/* Utils - colors */
+.pad-ud {
+	padding: 1em 0;
+}
+
+.pad-nd {
+	padding: 2rem 1rem 0 1rem;
+}
+
+/* Utils - bg colors */
 
 .bg-p {
 	background-color: #9792e4;
+}
+
+.bg-b {
+	background-color: #0084fd;;
+}
+
+/* Utils - colors */
+
+.col-w {
+	color: #ffffff;
+}
+
+.col-g {
+	color: #333333;
+}
+
+.col-b {
+	color: #0084fd;
 }
 
 /* Utils Main */
@@ -50,9 +80,10 @@
 	background-color: #b5ddff;
 	width: calc(100% / 3 - 10px);
 	border-radius: 20px;
+	padding: 2rem;
 
 	/* debug */
-	height: 300px;
+	/* height: 300px; */
 }
 
 .column {
@@ -60,9 +91,9 @@
 	/* margin: 3rem auto; */
 
 	/* debug */
-	height: 500px;
+	/* height: 200px;
 	background-color: aqua;
-	border: 1px solid black;
+	border: 1px solid black; */
 }
 
 .btn {
@@ -71,3 +102,25 @@
 	border-radius: 2em;
 	padding: .5em 1em;
 }
+
+
+/* Utils - hSomething */
+
+h1 {
+	font-size: 10px;
+}
+
+h2 {
+	font-size: 10px;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
