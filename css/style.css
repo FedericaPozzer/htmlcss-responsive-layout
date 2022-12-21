@@ -1,1 +1,47 @@
 /* body "white" */
+
+/* HEADER */
+
+header {
+    background-color: #0084fd;
+    height: 8vh;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+header > nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    margin: 0 1rem;
+    line-height: 8vh;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+    background-color: #ffffff;
+}
+
+/* MAIN - 1/6 */
+
+.row {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.row .card.card-big {
+    width: calc((100% / 3) * 2 - 7px);
+}

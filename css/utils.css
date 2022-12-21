@@ -3,5 +3,24 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 2rem;
 }
 
+.d-flex {
+	display: flex;
+}
+
+.p-up {
+	padding-top: 13vh;
+}
+
+/* Utils Main */
+
+.card {
+	background-color: #b5ddff;
+	width: calc(100% / 3 - 10px);
+	border-radius: 20px;
+
+	/* debug */
+	height: 300px;
+}

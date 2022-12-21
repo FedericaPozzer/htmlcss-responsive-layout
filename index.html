@@ -15,15 +15,54 @@
 <body>
 <!-- TODO header con nav bar fixed flex con 2 div con space between 1)Logo e 2) ul con link e un button. MEDIA QUERY il secondo div in display none + fontawesome // BG #0084fd - COLOR #ffffff -->
 	<header>
-		
+		<nav class="container d-flex">
+			<div class="logo">
+				<a href="#"><img src="./img/logo.png" alt="logo"></a>
+			</div>
 
+
+			<div class="d-flex">
+				<ul class="d-flex">
+					<li><a href="#">Planning</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">About Us</a></li>
+					<li>
+						<button>Get Started</button>
+					</li>
+				</ul>
+
+			</div>
+
+		</nav>
 	</header>
 
 <!-- TODO main con 6 section, crea 2 container: container e container-small per la section 2 MEDIA QUERY i containers diventano max-width 100% -->
 	<main>
 
 <!-- TODO 1/6 container con una row con flex wrap, elementi tutti uguali (100% / 3 o 30%) tranne il primo che è il doppio (60%, magari due colonne). Spaziare con gap. MEDIA QUERY le cards diventano width 100%, quella grande row column // BG #ffffff COLOR #333333 -->
-		<section></section>
+		<section class="p-up">
+			<div class="container">
+
+				<div class="row d-flex">
+
+					<div class="card card-big">
+						<div></div>
+						<div></div>
+					</div>
+
+					<div class="card"></div>
+
+					<div class="card"></div>
+
+					<div class="card"></div>
+
+					<div class="card"></div>
+
+				</div>
+
+			</div>
+		</section>
 
 <!-- TODO 2/6 container-small una row flex con 2 column con width 50% 1) img+div(h5(?)+p) e 2) div flex con align items flex end (stesso border dei container delal prossima section). MEDIA QUERY il container diventa max-width 100% e le colonne diventano width 100% // BG #9792e4 COLOR #ffffff -->
 		<section></section>
