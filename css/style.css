@@ -29,6 +29,17 @@ header li {
     cursor: pointer;
 }
 
+header button {
+    line-height: 3vh;
+}
+
+/* HEADER MEDIA QUERY */
+
+@media screen and (max-width:480px) {
+    
+}
+
+
 /* MAIN */
 
 main {
@@ -53,6 +64,7 @@ main {
 	background-color: hsl(244, 60%, 73%);
     border-radius: 30px;
     margin-bottom: 1rem;
+    align-items: center;
 }
 
 .tondo {
@@ -63,4 +75,12 @@ main {
     background-position: center;
     background-size: cover;
     /* background-repeat: no-repeat; */
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
 }
