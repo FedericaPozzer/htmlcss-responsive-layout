@@ -47,5 +47,20 @@ main {
     width: calc((100% / 3) * 2 - 7px);
 }
 
-/* MAIN - 2/6 */
+/* MAIN - 3/6 */
 
+.card-purple {
+	background-color: hsl(244, 60%, 73%);
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.tondo {
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(../img/testimonial1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}

@@ -17,12 +17,21 @@
 }
 
 /* Utils spacing */
+
+.center {
+	text-align: center;
+}
+
 .p-up {
 	padding-top: 8vh;
 }
 
 .m-ud {
 	margin: 3rem auto;
+}
+
+.pad-2 {
+	padding: 2rem;
 }
 
 /* Utils - colors */
