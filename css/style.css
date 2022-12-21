@@ -37,11 +37,15 @@ main {
 
 /* MAIN - 1/6 */
 
-.row {
+.row-table {
     flex-wrap: wrap;
     gap: 15px;
+	/* margin: 3rem auto; */
 }
 
-.row .card.card-big {
+.row-table .card.card-big {
     width: calc((100% / 3) * 2 - 7px);
 }
+
+/* MAIN - 2/6 */
+

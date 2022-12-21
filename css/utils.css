@@ -6,12 +6,29 @@
 	padding: 0 2rem;
 }
 
+.container-small {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
 .d-flex {
 	display: flex;
 }
 
+/* Utils spacing */
 .p-up {
-	padding-top: 13vh;
+	padding-top: 8vh;
+}
+
+.m-ud {
+	margin: 3rem auto;
+}
+
+/* Utils - colors */
+
+.bg-p {
+	background-color: #9792e4;
 }
 
 /* Utils Main */
@@ -23,4 +40,14 @@
 
 	/* debug */
 	height: 300px;
+}
+
+.column {
+	width: 50%;
+	/* margin: 3rem auto; */
+
+	/* debug */
+	height: 500px;
+	background-color: aqua;
+	border: 1px solid black;
 }
