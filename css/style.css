@@ -138,7 +138,7 @@ main {
 /* Main 5/6 */
 
 .about-us p {
-    line-height: 3rem;
+    /* line-height: 3rem; */
     width: 90%;
 }
 
@@ -146,7 +146,7 @@ main {
     position: relative;
 }
 
-.helper i {
+.helper .quote {
     font-size: 3.5rem;
     position: absolute;
     right: 6rem;
@@ -154,6 +154,32 @@ main {
 
 .helper .tondo {
     width: 15rem;
+}
+
+.helper button {
+    margin-left: 1rem;
+}
+
+.helper button > .i {
+    color: black;
+}
+
+/* Main 6/6 */
+
+.itsfree {
+    color: #fdc15f;
+    font-size: 4rem;
+}
+
+.beta {
+    width: 40%;
+    margin: auto;
+}
+
+.getstarted button {
+    padding: 2rem 5rem;
+    border-radius: 3rem;
+    font-weight: bold;
 }
 
 /* Footer */
@@ -221,10 +247,14 @@ footer {
         }
 
     /* Main 5/6 */
-        .helper i {
+        .helper .quote {
             right: 3rem;
         }
 
+    /* Main 6/6 */
+        .beta {
+            width: 90%;
+        }
 
 /* MEDIA QUERIES - Mobile */
 
@@ -251,7 +281,7 @@ footer {
             flex-direction: column;
         }
 
-        .helper i {
+        .helper .quote {
             right: 5rem;
         }
 }

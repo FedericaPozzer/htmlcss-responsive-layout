@@ -34,6 +34,10 @@
 	margin: 3rem auto;
 }
 
+.m-ud2 {
+	margin: 2rem auto;
+}
+
 .pad-1 {
 	padding: 1rem;
 }
@@ -52,6 +56,14 @@
 
 .pad-b {
 	padding-bottom: 2rem;
+}
+
+.line {
+	line-height: 3rem;
+}
+
+.tiny {
+	font-size: .9rem;
 }
 
 /* Utils - bg colors */
