@@ -105,19 +105,10 @@
 	width: calc(100% / 3 - 10px);
 	border-radius: 20px;
 	padding: 1.5rem;
-
-	/* debug */
-	/* height: 300px; */
 }
 
 .column {
 	width: 50%;
-	/* margin: 3rem auto; */
-
-	/* debug */
-	/* height: 200px;
-	background-color: aqua;
-	border: 1px solid black; */
 }
 
 .btn {
@@ -154,4 +145,8 @@ h4 {
 .weight {
 	font-size: 3.5rem;
 	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
 }

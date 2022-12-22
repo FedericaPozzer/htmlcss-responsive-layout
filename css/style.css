@@ -28,13 +28,9 @@ header li {
     cursor: pointer;
 }
 
-/* HEADER MEDIA QUERY */
-
 .show-tm {
     display: none;
 }
-
-
 
 /* MAIN */
 
@@ -72,7 +68,15 @@ main {
     color: #0084fd;
 }
 
+.card-big button {
+    padding: .5rem 2.5rem; /*class?*/
+}
+
 /* Main 2/6 */
+
+.strategic {
+    line-height: 1.7rem;
+}
 
 .card-white {
     max-width: 90%;
@@ -80,7 +84,6 @@ main {
     border-radius: 30px;
     margin-bottom: 1rem;
     margin-left: 2rem;
-    /* align-content: flex-end; */
 }
 
 .card-white img {
@@ -135,10 +138,13 @@ main {
     background-color: #ffffff;
 }
 
+.benefits button { 
+    padding: .5rem 2.5rem; /*class?*/
+}
+
 /* Main 5/6 */
 
 .about-us p {
-    /* line-height: 3rem; */
     width: 90%;
 }
 
@@ -195,9 +201,6 @@ footer p {
 
 
 
-
-
-
 /* MEDIA QUERIES - Tablet */
 
 @media screen and (max-width:780px) {
@@ -219,19 +222,13 @@ footer p {
         }
     
     /* Main 1/6 */
-        .container {
-            max-width: 100%;
-        }
-        /* serve???? */
         
         .row-table .column {
             width: 100%;
-            text-align: center;
         }
         
         .row-table .card-big {
             flex-direction: column;
-            align-items: center;
             gap: 3rem;
         }
     
