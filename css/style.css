@@ -131,6 +131,9 @@ main {
 
 /* Main 4/6 */
 
+.benefits .card {
+    background-color: #ffffff;
+}
 
 
 /* Footer */
@@ -190,6 +193,11 @@ footer {
             width: 100%;
         }
     }
+
+    /* Main 4/6 */
+        .benefits .card {
+            width: 48%;
+        }
 
 /* MEDIA QUERIES - Mobile */
 
