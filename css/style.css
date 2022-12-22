@@ -135,12 +135,33 @@ main {
     background-color: #ffffff;
 }
 
+/* Main 5/6 */
+
+.about-us p {
+    line-height: 3rem;
+    width: 90%;
+}
+
+.helper {
+    position: relative;
+}
+
+.helper i {
+    font-size: 3.5rem;
+    position: absolute;
+    right: 6rem;
+}
+
+.helper .tondo {
+    width: 15rem;
+}
 
 /* Footer */
 
 footer {
     background-color: #333333;
     color: #ffffff;
+
 }
 
 
@@ -199,6 +220,12 @@ footer {
             width: 48%;
         }
 
+    /* Main 5/6 */
+        .helper i {
+            right: 3rem;
+        }
+
+
 /* MEDIA QUERIES - Mobile */
 
 @media screen and (max-width:480px) {
@@ -218,4 +245,14 @@ footer {
         .tondo {
             width: 50%;
         }
+
+    /* Main 5/6 */
+        .about {
+            flex-direction: column;
+        }
+
+        .helper i {
+            right: 5rem;
+        }
 }
+
